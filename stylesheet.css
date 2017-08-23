@@ -1,0 +1,149 @@
+div {
+    border-radius: 5px;
+}
+
+#header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+    height: 60px;
+	background-color: #008B8B;
+    margin-bottom: 10px;
+}
+
+#name {
+    float:left;
+    margin-left: 5px;
+    margin-top: 18px;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+#email {
+    float:right;
+    margin-right: 20px;
+    padding-top: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#portrait {
+    width: 100%;
+}
+
+#logocwru {
+    float: right;
+    width: 40%;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+#logojfc {
+    float: right;
+    width: 40%;
+    margin-right: 10px;
+    background-color: black;
+}
+
+#logogooseling {
+    float: right;
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.left {
+    position: relative;
+    width: 25%;
+    height: 2000px;
+    background-color: #AFEEEE;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.right {
+    position: relative;
+    width: 74%;
+    height: 100%;
+    background-color: #EEE8AA;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.right p {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.right ul {
+    margin-left: 5px;
+}
+
+.right p + ul {
+    margin-top: -15px;
+}
+
+#footer {
+    height: 90px;
+    background-color:#008B8B;
+    clear: both;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer p {
+    text-align: center;
+    position: relative;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+#footer .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footer .fa:hover {
+    opacity: 0.7;
+}
+
+#footer .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+#footer .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+#footer .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+#footer .fa-github {
+    background: black;
+    color: white;
+}
